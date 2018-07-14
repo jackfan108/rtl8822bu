@@ -69,7 +69,5 @@ make
 - run
 ```
 sudo make install
-sudo cp 88x2bu.ko /lib/modules/$(uname -r)/kernel/drivers/net/wireless
-sudo depmod
 ```
 - restart your computer and you should see wifi networks :D
